@@ -26,3 +26,12 @@ http://localhost:8080/docs
 ## Credenciales de prueba
 - Username: admin
 - Password: 1234
+
+## Variables de entorno
+- Crear un archivo .env en la raíz del proyecto con:
+```
+MONGODB_URL=<Tu connection string de mongo atlas>
+JWT_SECRET_KEY=<tu secret key para los jwt>
+JWT_ALGORITHM=HS256
+JWT_EXPIRATION_MINUTES=<Tiempo de expiración del token>
+```
