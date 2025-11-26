@@ -129,8 +129,8 @@ async def get_numbers_service():
 async def home():
     return {"/docs para ver la documentación con Swagger",
             "/login para obtener token de autenticación",
-            "/numbers para crear un número (requiere token)",
-            "/numbers para obtener todos los números (requiere token)"},
+            "/numbers (Get) para crear un número (requiere token)",
+            "/numbers (Post) para obtener todos los números (requiere token)"},
         
 
 @app.post("/login", response_model = LoginResponse, tags = ["Login"])

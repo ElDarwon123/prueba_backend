@@ -10,9 +10,8 @@ venv\Scripts\activate     # Windows
 deactivate # desactivar el entorno virtual
 ```
 
-2. Instalar dependencias (Cualquiera de las 2 opciones):
+2. Instalar dependencias:
 ```
-pip install -r requirements.txt
 pip install fastapi uvicorn pyjwt pydantic pymongo python-dotenv
 ```
 
